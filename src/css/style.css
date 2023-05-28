@@ -1,6 +1,203 @@
 @import url(reset.css);
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Rubik:wght@300;400;700&display=swap');
+@import url(navbar.css);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Rubik:wght@300;400;700&display=swap");
 
 body {
   background-color: #252525;
+  color: #fffafa;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  width: 25rem;
+  height: 4.8rem;
+  gap: 1.6rem;
+  background: #ffbb00;
+  border-radius: 2rem;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #333333;
+}
+
+h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  letter-spacing: -0.01em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+section .warper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 379px;
+  height: 100%;
+}
+
+.content-hero,
+.content-info-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.info-cards {
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+  height: 50%;
+}
+
+.hero {
+  background: url(../img/bg-hero.svg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  fill-opacity: 0.5;
+}
+
+.content-hero p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+}
+
+.content-info-cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 25px;
+  gap: 1.6rem;
+
+  width: 34.4rem;
+  height: 14.8rem;
+
+  background: #252525;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.content-info-cards .card-gray {
+  background: #333333;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content-info-cards .card-gray-black {
+  background: #4d4d4d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content-info-cards .card h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: -0.01em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.content-info-cards .card p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.content-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.content-about p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: -0.01em;
+}
+
+.content-about p span {
+  font-weight: 700;
+}
+.card-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+ 
+  background: rgba(102, 102, 102, 0.5);
+  border: 2px solid #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.card-service h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  letter-spacing: -0.01em;
+  text-transform: capitalize;
+  color: #ffbb00;
+}
+.card-service p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  text-align: center;
+  letter-spacing: -0.01em;
+}
+.embla {
+  overflow: hidden;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+.embla__container {
+  display: flex;
+  width: 280px;
+  height: 270px;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
 }
