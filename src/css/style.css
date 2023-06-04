@@ -73,8 +73,8 @@ section .warper {
   background: url(../img/bg-hero.svg) no-repeat;
   background-size: cover;
   background-position: center;
-  width: 100%;
   fill-opacity: 0.5;
+  width: 100%;
 }
 
 .content-hero p {
@@ -141,6 +141,7 @@ section .warper {
   flex-direction: column;
   align-items: center;
   gap: 2.4rem;
+  width: 100%;
 }
 
 .content-about p {
@@ -161,7 +162,7 @@ section .warper {
   align-items: center;
   justify-content: center;
   gap: 1.6rem;
- 
+
   background: rgba(102, 102, 102, 0.5);
   border: 2px solid #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -200,4 +201,45 @@ section .warper {
 .embla__slide {
   flex: 0 0 100%;
   min-width: 0;
+}
+
+.content-history {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.content-history .about-history h1 {
+  text-align: left;
+  margin-bottom: 1.6rem;
+}
+
+.content-history .about-history h2{
+  width: 30rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: -0.01em;
+}
+
+.about-history .icon{
+  margin: 1.6rem 0;
+}
+
+.about-history p{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: -0.01em;
+}
+
+.content-history .perfil{
+  width: 100%;
+  height: 36.28rem;
 }
