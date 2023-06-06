@@ -7,7 +7,8 @@ body {
   color: #fffafa;
 }
 
-section {
+section,
+footer {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -46,7 +47,8 @@ h1 {
   text-transform: capitalize;
 }
 
-section .warper {
+section .warper,
+footer .warper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,7 +75,6 @@ section .warper {
   background: url(../img/bg-hero.svg) no-repeat;
   background-size: cover;
   background-position: center;
-  fill-opacity: 0.5;
   width: 100%;
 }
 
@@ -188,6 +189,7 @@ section .warper {
   text-align: center;
   letter-spacing: -0.01em;
 }
+
 .embla {
   overflow: hidden;
   margin-top: 6rem;
@@ -216,7 +218,7 @@ section .warper {
   margin-bottom: 1.6rem;
 }
 
-.content-history .about-history h2{
+.content-history .about-history h2 {
   width: 30rem;
   font-family: "Poppins";
   font-style: normal;
@@ -226,11 +228,11 @@ section .warper {
   letter-spacing: -0.01em;
 }
 
-.about-history .icon{
+.about-history .icon {
   margin: 1.6rem 0;
 }
 
-.about-history p{
+.about-history p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -239,7 +241,168 @@ section .warper {
   letter-spacing: -0.01em;
 }
 
-.content-history .perfil{
+.content-history .perfil {
   width: 100%;
   height: 36.28rem;
+}
+
+.jobs {
+  margin-top: 6.4rem;
+  margin-bottom: 3.2rem;
+  height: 50%;
+}
+
+.content-jobs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3.6rem;
+}
+
+.content-jobs h1 {
+  text-align: left;
+}
+
+.content-jobs p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  text-transform: capitalize;
+}
+
+/********** carousel **********/
+.slide-jobs {
+  max-width: 120rem;
+  position: relative;
+}
+
+.slide-jobs .icon {
+  top: 50%;
+  height: 3.6rem;
+  width: 3.6rem;
+  cursor: pointer;
+  font-size: 2rem;
+  text-align: center;
+  background-color: #676363;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-50%);
+}
+
+.slide-jobs .icon:first-child {
+  left: -2.3rem;
+}
+
+.slide-jobs .icon:last-child {
+  right: -2.3rem;
+}
+
+.slide-jobs .carousel {
+  font-size: 0;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+.carousel .dragging {
+  cursor: grab;
+  scroll-behavior: auto;
+}
+
+.carousel .dragging img {
+  pointer-events: none;
+}
+
+.carousel img {
+  object-fit: cover;
+  margin-left: 1.4rem;
+  width: 100%;
+}
+
+.carousel img:first-child {
+  margin-left: 0rem;
+}
+
+/***** contact *****/
+.contact {
+  background: url(../img/bg-contact.svg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 50%;
+}
+
+.content-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  padding: 3.2rem 0;
+}
+
+.content-contact img {
+  width: 100%;
+}
+
+/********* footer *********/
+.footer {
+  background: #666666;
+  height: 60%;
+}
+
+.content-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.content-footer img{
+  padding-top: 3.2rem;
+}
+
+.content-footer p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.001em;
+  padding-bottom: 6.4rem;
+}
+
+.footer-nav-item {
+  margin-bottom: 1.6rem;
+}
+
+.footer-nav-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer-nav-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+hr {
+  width: 100%;
+}
+
+.redes a {
+  font-size: 4.5rem;
 }
