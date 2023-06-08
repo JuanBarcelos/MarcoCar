@@ -16,12 +16,11 @@ body {
   width: 1216px;
 }
 
-button {
+.button {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.8rem;
-  padding: 1.6rem;
   width: 29.2rem;
   height: 6.4rem;
   background: #ffbb00;
@@ -36,6 +35,7 @@ button {
   line-height: 2.7rem;
   letter-spacing: -0.01em;
   color: #333333;
+  text-decoration: none;
 }
 button i {
   font-size: 2.4rem;

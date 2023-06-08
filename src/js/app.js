@@ -18,3 +18,4 @@ function menuShow() {
     document.querySelector(".icon").src = "src/img/close.svg"
   }
 }
+
