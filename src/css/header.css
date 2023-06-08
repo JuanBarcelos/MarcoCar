@@ -72,18 +72,18 @@ header {
   display: none;
 }
 
-@media screen and (max-width: 730px) {
+@media only screen and (max-width: 835px) {
   .content {
     width: 688px;
   }
-  .info{
+  .info {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:1.5rem
+    gap: 1.5rem;
   }
-  .info-description{
+  .info-description {
     flex-direction: column;
   }
   .nav-item {
@@ -92,10 +92,12 @@ header {
   .mobile-menu-icon {
     display: block;
   }
-  .mobile-menu-icon button {
+  .mobile-menu-icon .btn-menu {
     background-color: transparent;
     border: none;
     cursor: pointer;
+    width: 4.5rem;
+    height: 4.5rem;
   }
   .mobile-menu ul {
     display: flex;
@@ -109,5 +111,9 @@ header {
   }
   .open {
     display: block;
+  }
+  .footer-nav-link {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
   }
 }

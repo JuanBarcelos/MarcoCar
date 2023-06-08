@@ -61,7 +61,6 @@ h1 {
 #hero .content {
   display: flex;
   align-items: center;
-  position: relative;
 }
 
 .content-hero p {
@@ -81,8 +80,7 @@ h1 {
   justify-content: center;
 }
 #info .content {
-  position: absolute;
-  top: 74rem;
+  margin-top: 6.4rem;
 }
 .content-info-cards {
   display: grid;
@@ -211,7 +209,6 @@ h1 {
 /*** history ***/
 #history .content {
   background: rgba(102, 102, 102, 0.3);
-  height: 72vh;
   width: 100%;
 }
 .content-history {
@@ -337,3 +334,14 @@ h1 {
   letter-spacing: -0.001em;
   color: #ffffff;
 }
+
+/*
+  button {
+    width: 25rem;
+    height: 4.8rem;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    letter-spacing: -0.01em;
+    color: #333333;
+  }
+*/
