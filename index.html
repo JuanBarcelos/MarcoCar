@@ -19,12 +19,15 @@
     <header>
       <div class="content">
         <div class="info">
-          <div class="infos">
-            <p><i class="ph ph-phone"></i> +55 (21) 99999-9999</p>
-            <p>
-              <i class="ph ph-clock"></i> Aberto de Segunda - Sexta das 08hr -
-              18:00
-            </p>
+          <div class="info-description">
+            <div class="text">
+              <i class="ph ph-phone"></i>
+              <p>+55 (21) 99999-9999</p>
+            </div>
+            <div class="text">
+              <i class="ph ph-clock"></i>
+              <p>Aberto de Segunda - Sexta das 08hr - 18:00</p>
+            </div>
           </div>
           <div class="redes">
             <a href="">
@@ -35,14 +38,37 @@
             </a>
           </div>
         </div>
-      </div>
 
-      <nav class="nav-bar">
-        <div class="logo">
-          <img src="src/img/Logo.svg" alt="" />
-        </div>
-        
-        <div class="nav-list">
+        <nav class="nav-bar">
+          <div class="logo">
+            <img src="src/img/Logo.svg" alt="" />
+          </div>
+
+          <div class="nav-list">
+            <ul>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a href="#history" class="nav-link">Sobre mim</a>
+              </li>
+              <li class="nav-item">
+                <a href="#jobs" class="nav-link">Trabalhos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contate-me</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mobile-menu-icon">
+            <button class="btn-menu" onclick="menuShow()">
+              <img class="icon" src="src/img/menu.svg" alt="" />
+            </button>
+          </div>
+        </nav>
+
+        <div class="mobile-menu">
           <ul>
             <li class="nav-item">
               <a href="#about" class="nav-link">Serviços</a>
@@ -58,35 +84,12 @@
             </li>
           </ul>
         </div>
-
-        <div class="mobile-menu-icon">
-          <button class="btn-menu" onclick="menuShow()">
-            <img class="icon" src="src/img/menu.svg" alt="" />
-          </button>
-        </div>
-      </nav>
-
-      <div class="mobile-menu">
-        <ul>
-          <li class="nav-item">
-            <a href="#about" class="nav-link">Serviços</a>
-          </li>
-          <li class="nav-item">
-            <a href="#history" class="nav-link">Sobre mim</a>
-          </li>
-          <li class="nav-item">
-            <a href="#jobs" class="nav-link">Trabalhos</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-link">Contate-me</a>
-          </li>
-        </ul>
       </div>
     </header>
 
     <main>
-      <section id="hero" class="hero">
-        <div class="warper">
+      <section id="hero">
+        <div class="content">
           <div class="content-hero">
             <h1>
               Marco Car <br />
@@ -97,7 +100,7 @@
               oferecemos serviços de alta qualidade para garantir que seu carro
               esteja sempre em movimento.
             </p>
-            <button class="btn">
+            <button>
               <i class="ph ph-whatsapp-logo"></i>
               AGENDE UMA CONSULTA
             </button>
@@ -105,8 +108,8 @@
         </div>
       </section>
 
-      <section id="info" class="info-cards">
-        <div class="warper">
+      <section id="info">
+        <div class="content">
           <div class="content-info-cards">
             <div class="card">
               <i class="ph ph-phone"></i>
