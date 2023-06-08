@@ -47,15 +47,18 @@ header {
   display: flex;
   align-items: center;
 }
-.nav-list ul {
+.nav-list ul,
+.footer-ul {
   display: flex;
   justify-content: center;
   list-style: none;
 }
-.nav-item {
+.nav-item,
+.footer-nav-item {
   margin: 0 1.5rem;
 }
-.nav-link {
+.nav-link,
+.footer-nav-link {
   text-decoration: none;
   font-family: "Poppins";
   font-style: normal;

@@ -63,15 +63,7 @@ h1 {
   align-items: center;
   position: relative;
 }
-h1 {
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 4.8rem;
-  line-height: 5.7rem;
-  letter-spacing: -0.01em;
-  color: #ffffff;
-}
+
 .content-hero p {
   font-family: "Poppins";
   font-style: normal;
@@ -80,6 +72,7 @@ h1 {
   line-height: 3.6rem;
   letter-spacing: -0.01em;
   color: #ffffff;
+  margin: 2.4rem 0;
 }
 
 /*** info ***/
@@ -284,6 +277,63 @@ h1 {
   min-width: 38rem;
   height: 500px;
 }
-.content-jobs .slide-jobs img{
+.content-jobs .slide-jobs img {
   width: 100%;
+}
+
+/*** contact ***/
+#contact {
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/bg-contact.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.content-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.9rem;
+}
+.content-contact img {
+  width: 60rem;
+  height: 46.1rem;
+}
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+}
+.contact-text h1 {
+  width: 52.9rem;
+}
+
+/*** footer ***/
+#footer {
+  display: flex;
+  justify-content: center;
+  background: #666666;
+}
+.menu-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.3rem;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.2rem;
+  margin-bottom: 5.9rem ;
+}
+.footer-links p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  letter-spacing: -0.001em;
+  color: #ffffff;
 }
