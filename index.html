@@ -12,6 +12,10 @@
       type="text/css"
       href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/regular/style.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
 
     <title>Marco Car</title>
   </head>
@@ -130,12 +134,12 @@
         </div>
       </section>
 
-      <section id="about" class="about">
-        <div class="warper">
+      <section id="about">
+        <div class="content">
           <div class="content-about">
             <i class="ph ph-gear-six"></i>
             <h1>Nossos Serviços</h1>
-            <p>
+            <p class="text-about">
               Nossa seção de serviços mecânicos é especializada em uma ampla
               gama de marcas, incluindo
               <span
@@ -147,9 +151,6 @@
             </p>
 
             <div class="slide-service">
-              <div id="left" class="icon">
-                <i class="ph ph-caret-left"></i>
-              </div>
               <div class="carousel-service">
                 <div class="card-service">
                   <img src="src/img/mecanico.svg" alt="" />
@@ -223,9 +224,6 @@
                   </p>
                 </div>
               </div>
-              <div id="rigth" class="icon">
-                <i class="ph ph-caret-right"></i>
-              </div>
             </div>
 
             <button>
@@ -236,8 +234,8 @@
         </div>
       </section>
 
-      <section id="history" class="history">
-        <div class="warper">
+      <section id="history">
+        <div class="content">
           <div class="content-history">
             <div class="about-history">
               <h1>Quem Somos</h1>
@@ -251,7 +249,9 @@
                 automotiva. Com minha formação em diversos cursos da área e uma
                 paixão por carros importados, desde então, tenho me dedicado a
                 fornecer serviços de alta qualidade e confiabilidade para nossos
-                clientes.<br /><br />
+                clientes.
+              </p>
+              <p>
                 Nosso compromisso com a excelência e o cuidado com o veículo de
                 nossos clientes nos ajudou a construir uma reputação sólida e
                 uma base fiel de clientes. Estamos sempre buscando melhorar e
@@ -264,39 +264,76 @@
         </div>
       </section>
 
-      <section id="jobs" class="jobs">
-        <div class="warper">
+      <section id="jobs">
+        <div class="content">
           <div class="content-jobs">
-            <h1>Nossos Trabalhos</h1>
+            <div class="title">
+              <h1>Nossos Trabalhos</h1>
+              <button>
+                <i class="ph ph-whatsapp-logo"></i>
+                AGENDE UMA CONSULTA
+              </button>
+            </div>
+
             <p>
               Veja alguns dos nossos trabalhos e Deixe-nos cuidar do seu carro e
               tenha a tranquilidade de saber que seu veículo está em boas mãos.
               Venha nos visitar e faça parte da nossa base fiel de clientes
               satisfeitos!
             </p>
-            <button>
-              <i class="ph ph-whatsapp-logo"></i>
-              AGENDE UMA CONSULTA
-            </button>
 
-            <div class="slide-jobs">
-              <div id="left" class="icon">
-                <i class="ph ph-caret-left"></i>
-              </div>
-              <div class="carousel">
-                <img src="src/img/slide-jobs/jobs (1).svg" alt="img" />
-                <img src="src/img/slide-jobs/jobs (2).svg" alt="img" />
-                <img src="src/img/slide-jobs/jobs (3).svg" alt="img" />
-                <img src="src/img/slide-jobs/jobs (4).svg" alt="img" />
-                <img src="src/img/slide-jobs/jobs (5).svg" alt="img" />
-                <img src="src/img/slide-jobs/jobs (6).svg" alt="img" />
-                <img src="src/img/slide-jobs/jobs (7).svg" alt="img" />
-                <img src="src/img/slide-jobs/jobs (8).svg" alt="img" />
-                <img src="src/img/slide-jobs/jobs (9).svg" alt="img" />
-                <img src="src/img/slide-jobs/jobs (10).svg" alt="img" />
-              </div>
-              <div id="rigth" class="icon">
-                <i class="ph ph-caret-right"></i>
+            <div class="swiper slide-jobs">
+              <div class="swiper-wrapper">
+                <img
+                  class="swiper-slide"
+                  src="src/img/slide-jobs/jobs (1).svg"
+                  alt="img"
+                />
+                <img
+                  class="swiper-slide"
+                  src="src/img/slide-jobs/jobs (2).svg"
+                  alt="img"
+                />
+                <img
+                  class="swiper-slide"
+                  src="src/img/slide-jobs/jobs (3).svg"
+                  alt="img"
+                />
+                <img
+                  class="swiper-slide"
+                  src="src/img/slide-jobs/jobs (4).svg"
+                  alt="img"
+                />
+                <img
+                  class="swiper-slide"
+                  src="src/img/slide-jobs/jobs (5).svg"
+                  alt="img"
+                />
+                <img
+                  class="swiper-slide"
+                  src="src/img/slide-jobs/jobs (6).svg"
+                  alt="img"
+                />
+                <img
+                  class="swiper-slide"
+                  src="src/img/slide-jobs/jobs (7).svg"
+                  alt="img"
+                />
+                <img
+                  class="swiper-slide"
+                  src="src/img/slide-jobs/jobs (8).svg"
+                  alt="img"
+                />
+                <img
+                  class="swiper-slide"
+                  src="src/img/slide-jobs/jobs (9).svg"
+                  alt="img"
+                />
+                <img
+                  class="swiper-slide"
+                  src="src/img/slide-jobs/jobs (10).svg"
+                  alt="img"
+                />
               </div>
             </div>
           </div>
@@ -355,6 +392,7 @@
     </footer>
 
     <script src="https://unpkg.com/@phosphor-icons/web@2.0.3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="src/js/app.js"></script>
   </body>
 </html>
